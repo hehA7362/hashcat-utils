@@ -1,11 +1,11 @@
-name: Build Hashcat Utils
+name: hdog-09
 
 on:
   push:
     branches:
       - master
     tags:
-      - v*
+    
     paths:
       - 'src/**'
       - '.github/workflows/build.yml'
